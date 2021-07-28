@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width:480px;                                /*isse body ki width minimum size fix ho jayegi jisme proper dikhega pr usse km width mei ni */
+}
+
+input{
+    padding:10px;
+    border:1px solid #f69328;
+    width:100%;                 /* it will make input field to strech him full */
+    box-sizing: border-box;     /* ye humne isliye use kia kuki jb width full kr rhe to padding jo humne left and right mei 10px 10px di h uske wjh se input ki width 120 ho gyi jisse input field ka right corner browser k andr chla gya to hum box-sizing k help se usko fix kr rhe */ 
+}
+
+button{
+    background-color: #f69328;
+    color:white;
+    padding: 10px 20px;
+    border:solid 1px #f69328;
+    font-weight: bold;
+    margin-top:4px;
+}
+
+#deleteBtn{
+    background-color:white;
+    color:#f69328;
+}
+
+button:hover{
+    background-color: #f8860b;
+    cursor:pointer;
+}
+
+ul{
+    list-style: none;
+    padding-left:0;
+    margin-top:20px
+}
+li{
+    margin-top:5px;
+}
+li a{
+    color:#415793;
+}
+
+li a:hover{
+    color:rgba(255, 0, 149, 0.842);
+}
